@@ -1,7 +1,7 @@
+require "bundler/capistrano"
+
 set :application, "darkrails"
 set :repository,  "git@github.com:darkside/darkrails.git"
-
-
 set :user, "cproruby2"
 
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
